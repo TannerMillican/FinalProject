@@ -6,7 +6,7 @@ import Autocomplete from 'react-google-autocomplete';
 
 // const {MarkerWithLabel} = require('react-google-maps/lib/components/addons/MarkerWithLabel');
 
-Geocode.setApiKey('AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ');
+Geocode.setApiKey('YOUR API KEY');
 Geocode.enableDebug();
 
 class LocationSearchModal extends React.Component {
@@ -211,7 +211,7 @@ class LocationSearchModal extends React.Component {
 			))
 		);
 
-		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpaKSGxiyn-Ahep_9DdFW1LCHGRx0PIqQ&libraries=places" loadingElement={<div style={{height: `200%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `200%`}} />} />;
+		return <AsyncMap googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY&libraries=places" loadingElement={<div style={{height: `200%`}} />} containerElement={<div style={{height: this.state.height}} />} mapElement={<div style={{height: `200%`}} />} />;
 	}
 }
 
